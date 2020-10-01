@@ -1,7 +1,23 @@
+// Spin up a container by base image
 // Example image debian
 
 docker run -it debian:jessie
 
+//Install Git package in the container
 //install git
 
 apt-get update && apt-get install -y git 
+
+//commit changes made in the container : to save the changes we made to the docker container's file system to a new image
+//docker commit container_id repo_name:tag
+
+docker commit d0f49e05668d lipikamajumdar/debian:1.00
+
+docker images
+
+C:\Users\default.DESKTOP-0NMG7L4>docker images
+REPOSITORY              TAG                 IMAGE ID            CREATED             SIZE
+lipikamajumdar/debian   1.00                7c9b1549bd3c        17 seconds ago      224MB
+debian                  jessie              8c9d595d91c1        3 weeks ago         129MB
+busybox                 1.32.0              6858809bf669        3 weeks ago         1.23MB
+tomcat                  8.0                 ef6a7c98d192        2 years ago         356MB
