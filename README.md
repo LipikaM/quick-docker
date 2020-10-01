@@ -33,7 +33,7 @@ which is container engine and the virtulization happens at the OS level. Hence m
 Why to run the applications in different containers not in one VM ?
 - runtime isolations (In case application A requires JRE7 and application B requires JRE8)
 
-#Important Docker Jargons:
+# Important Docker Jargons:
 
 Images:
 
