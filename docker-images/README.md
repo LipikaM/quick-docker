@@ -13,4 +13,14 @@ docker history busybox:1.32.0
 IMAGE               CREATED             CREATED BY                                      SIZE                COMMENT
 6858809bf669        3 weeks ago         /bin/sh -c #(nop)  CMD ["sh"]                   0B
 <missing>           3 weeks ago         /bin/sh -c #(nop) ADD file:72be520892d0a903d…   1.23MB
+ 
+# Two ways to build a docker image
+- Commit changes in a docker container
+- Write a docker file
+
+
+# Steps to build a docker image by committing changes in a docker container
+- Spin up a container by base image
+- Install Git package in the container
+- commit changes made in the container
 
