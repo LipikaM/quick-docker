@@ -6,7 +6,7 @@
  - Multiple containers can share access to the same underlying image.
  
   
-// get busybox docker image layers
+ # Example : Get busybox docker image layers
 
 docker history busybox:1.32.0
 
