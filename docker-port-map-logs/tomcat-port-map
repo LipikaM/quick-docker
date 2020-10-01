@@ -1,0 +1,3 @@
+// Run tomcat image on docker
+
+Docker run –it -d –p 8888:8080 tomcat:8.0 // check http://localhost:8888 Tomcat should be up and running
