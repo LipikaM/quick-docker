@@ -54,5 +54,10 @@ Registries	and	Repositories:
 - Inside the registry, images are stored under repositories.
 - Docker repository	is	a	collection	of	different	docker images	with	the	same	name,	that	have	different	tags,	each	tag	usually	represents	a	different	version	of	the	image.
 
+# Why using official images:
+- Proper documentation
+- Dedicated team for image content review
+- Timely security update
+
 
 
