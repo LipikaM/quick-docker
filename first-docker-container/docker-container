@@ -1,1 +1,23 @@
+//Create a docker image followed by run a command
 
+Docker run busybox:1.32.0 ls / 
+
+//Create a docker image in an interactive mode 
+
+Docker run -I –t busybox:1.32.0 ls / 
+
+//Run docker in background 
+
+Docker run -d busybox:1.32.0 sleep 1000 
+
+//List all the running docker processes 
+
+Docker ps 
+
+//Remove the docker container once it exists  
+
+Docker run -rm busybox:1.32.0 sleep 1 
+
+//Get the docker image information in JSON format 
+
+Docker inspect <docker-id>  
