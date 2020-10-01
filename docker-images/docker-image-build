@@ -1,0 +1,7 @@
+// Example image debian
+
+docker run -it debian:jessie
+
+//install git
+
+apt-get update && apt-get install -y git 
