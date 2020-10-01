@@ -1,3 +1,9 @@
 // get docker logs by docker-id
 
 Docker logs <docker-id> 
+
+//You can use many options like
+
+// --details (Show extra details provided to logs)
+
+// --timestamp to show timestamp
