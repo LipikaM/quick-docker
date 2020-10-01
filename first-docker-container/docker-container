@@ -6,7 +6,7 @@ Docker run busybox:1.32.0 ls /
 
 Docker run -I –t busybox:1.32.0 ls / 
 
-//Run docker in background 
+//Run docker in background (In detached mode)
 
 Docker run -d busybox:1.32.0 sleep 1000 
 
