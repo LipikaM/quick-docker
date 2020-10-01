@@ -21,3 +21,6 @@ lipikamajumdar/debian   1.00                7c9b1549bd3c        17 seconds ago  
 debian                  jessie              8c9d595d91c1        3 weeks ago         129MB
 busybox                 1.32.0              6858809bf669        3 weeks ago         1.23MB
 tomcat                  8.0                 ef6a7c98d192        2 years ago         356MB
+
+// run the new committed image
+docker run -it lipikamajumdar/debian:1.00
