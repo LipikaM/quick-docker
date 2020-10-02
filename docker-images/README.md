@@ -1,6 +1,10 @@
 
 # Docker Layers and Images
 
+
+ - Images are read only templates used to create containers.
+ - Images can have layers of other images
+ - Images are stored in Docker registry
  - All changes made into the running containers will be written into the writable layer
  - When the container is deleted the writable layer is also deleted but the underlying image remains unchanged.
  - Multiple containers can share access to the same underlying image.
