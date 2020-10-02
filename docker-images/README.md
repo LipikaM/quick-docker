@@ -24,3 +24,9 @@ IMAGE               CREATED             CREATED BY                              
 - Install Git package in the container
 - commit changes made in the container
 
+# Dockerfile and instruction
+- A docker file is a text document that contains all the instructions users provide to assemble an image.
+- Each instruction will create a new image layer to the image.
+- Instructions specify steps to follow while building an image.
+
+
