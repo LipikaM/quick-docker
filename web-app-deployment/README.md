@@ -14,4 +14,12 @@ C:\Users\default.DESKTOP-0NMG7L4\dckrfile\quick-docker\web-app-deployment>docker
 ## check the URL
 check at localhost:5000
 
+## Run a command in a running container
+
+get docker container id
+C:\Users\default.DESKTOP-0NMG7L4\dckrfile\quick-docker\web-app-deployment>docker ps
+
+run any command (in this case bash with the container id)
+C:\Users\default.DESKTOP-0NMG7L4\dckrfile\quick-docker\web-app-deployment>docker exec -it 474d58045830 bash
+
 
