@@ -33,4 +33,21 @@ IMAGE               CREATED             CREATED BY                              
 - Each instruction will create a new image layer to the image.
 - Instructions specify steps to follow while building an image.
 
+# More about Dockerfile...
 
+## Chain run instructions :
+ - Each	RUN	command	will	execute	the	command	on	the	top	writable	layer	of	the	container,	then	commit	the	container	as	a	new	image.
+ - The	new	image	is	used	for	the	next	step	in	the	Dockerfile.	So	each	RUN	instruction	will	create	a	new	image	layer.
+ - It	is	recommended	to	chain	the	RUN	instructions	in	the	Dockerfile to	reduce	the	number	of	image	layers	it	creates.
+ 
+## CMD	Instructions :
+
+- CMD	instruction	specifies	what	command	you	want	to	run	when	the	container	starts	up.	
+- If	we	don't	specify	CMD	instruction	in	the	Dockerfile,	Docker will	use	the	default	command	defined	in	the	base	image.	
+- The	CMD	instruction	doesn’t	run	when	building	the	image,	it	only	runs	when	the	container	starts	up.	
+- You	can	specify	the	command	in	either	exec	form	which	is	preferred	or	in	shell	form.
+
+## Docker Cache
+- Each	time	Docker executes	an	instruction	it	builds a new image layer.
+- The	next	time,	if	the	instruction	doesn't	change,	Docker will	simply	reuse	the	existing	layer.
+- 
