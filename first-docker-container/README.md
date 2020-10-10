@@ -20,3 +20,6 @@ docker ps -aq
 
 list all the running docker containers:
 docker ps
+
+delete a docker container with id:
+docker container rm docker_id
