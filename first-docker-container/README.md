@@ -9,3 +9,14 @@
 - Containers can be run in detached mode with option -d
 - docker ps command : to get all running processes
 - docker inspect command : to get docker id details in JSON format
+
+
+## Useful container commands
+list the docker containers:
+docker ps -a
+
+list only the container ids:
+docker ps -aq
+
+list all the running docker containers:
+docker ps
