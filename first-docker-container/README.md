@@ -23,3 +23,6 @@ docker ps
 
 delete a docker container with id:
 docker container rm docker_id
+
+Look inside the docker container
+docker exec -it container_id bash
