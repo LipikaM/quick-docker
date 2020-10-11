@@ -1,6 +1,6 @@
 # Dockerize dropwizard microservice
 
-- Clone the git repo for sample microservice written in dropwizard (maven build) : <GIT link to be passed>
+- Clone the git repo for sample microservice written in dropwizard (maven build) : https://github.com/LipikaM/service-quick-hello
 - Get the jar build out of the project and example.yml file under a folder with Dockerfile
 
 ## Docker build :
