@@ -12,4 +12,12 @@ Using Compose is basically a three-step process:
 
 Reference : https://docs.docker.com/compose/
 
+Important commands:
+
+check docker compose version:
+docker-compose -v
+
+
+
+
 
