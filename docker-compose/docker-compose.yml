@@ -1,0 +1,19 @@
+version: '3'
+services:
+  docker-mysql:
+    image: mysql
+    ports:
+      - "6033:3306"
+
+  simplespringboot:
+    restart: on-failure
+    build: ./
+    expose:
+      - "8080"
+    ports:
+      - 8080:8080
+    environment:
+      WAIT_HOSTS: mysql:3306
+    depends_on:
+      - docker-mysql
+
