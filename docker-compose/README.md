@@ -12,18 +12,19 @@ Using Compose is basically a three-step process:
 
 Reference : https://docs.docker.com/compose/
 
-Important commands:
-
-check docker compose version:
-docker-compose -v
-
 Basic commands:
 
 | Command  | Description |
 | ------------- | ------------- |
+| docker-compose -v  | check docker compose version |
 | docker-compose	up  | starts	up	all	the	containers  |
 | docker-compose	ps  | checks	the	status	of	the	containers	managed	by	dockercompose  |
 | docker-compose	logs  | outputs	colored	and	aggregated	logs	for	the	compose-managed	containers  |
+| docker-compose	logs -f  | outputs	appended	log	when	the	log	grows  |
+| docker-compose	logs container_id  | outputs	the	logs	of	a	specific	container  |
+| docker-compose	stop  | stops all running containers  |
+| docker-compose	rm  | removes all the containers  |
+| docker-compose	build  | rebuilds all the images  |
 
 
 
