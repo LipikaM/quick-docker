@@ -27,6 +27,13 @@ Basic commands:
 | docker-compose	build  | rebuilds all the images  |
 
 
+Sample spring boot application used for the docker-compose.yml is here : https://github.com/LipikaM/simplespringboot
+
+Run : docker-compose up
+This will execute Dockerfile commands and will run services defined in the docker-compose file.
+
+
+
 
 
 
