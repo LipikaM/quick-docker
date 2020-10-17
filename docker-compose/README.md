@@ -17,6 +17,14 @@ Important commands:
 check docker compose version:
 docker-compose -v
 
+Basic commands:
+
+| Command  | Description |
+| ------------- | ------------- |
+| docker-compose	up  | starts	up	all	the	containers  |
+| docker-compose	ps  | checks	the	status	of	the	containers	managed	by	dockercompose  |
+| docker-compose	logs  | outputs	colored	and	aggregated	logs	for	the	compose-managed	containers  |
+
 
 
 
