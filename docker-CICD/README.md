@@ -1,9 +1,14 @@
 
-Version control : Git hub
+# CICD Pipeline with github, CircleCI and docker
 
-Continous integration server : Circle CI
+## Version control : 
+Git hub
 
-Build/Container management : Docker
+## Continous integration server : 
+Circle CI
+
+## Build/Container management : 
+Docker
 
 1. Create github account if not any.
 
@@ -28,3 +33,4 @@ reference : https://docs.github.com/en/free-pro-team@latest/github/authenticatin
    Now the git push will trigger a build in circle ci. You can login circle ci via your gihub credentials. 
    
 
+          
